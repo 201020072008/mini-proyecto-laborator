@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffe4f1, #fff7fc);
+  color: #444;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #ffb6c1;
+  color: white;
+  border-bottom: 5px solid #ff7ca8;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header h2 {
+  margin-top: 5px;
+  font-weight: normal;
+}
+
+/* Secciones */
+section {
+  margin: 30px auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+/* Tarjetas */
+.tarjeta {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+/* Imagen de perfil */
+.perfil {
+  border-radius: 50%;
+  border: 4px solid #ff7ca8;
+}
+
+/* Galería */
+.galeria img {
+  margin: 10px;
+  border-radius: 8px;
+  border: 3px solid #ffc0cb;
+}
+
+/* Enlaces */
+a {
+  text-decoration: none;
+  color: #ff4081;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #d81b60;
+  text-decoration: underline;
+}
+
+/* Imagen con enlace */
+.imagen-enlace {
+  border: 3px solid #ff7ca8;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.imagen-enlace:hover {
+  transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #ffb6c1;
+  color: white;
+  padding: 15px;
+  border-top: 5px solid #ff7ca8;
+}
